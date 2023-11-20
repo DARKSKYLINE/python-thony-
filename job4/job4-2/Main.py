@@ -51,7 +51,7 @@ while True:
     sensor.measure()
     temp = sensor.temperature() 
     hum = sensor.humidity()
-    oled.text('Temp: {0}°C '.format(temp, hum),0,0)
+    oled.text('Temp: {0}C '.format(temp, hum),0,0)
     oled.text('Hum: {1}% '.format(temp, hum),0,20)
     oled.show() # show the new text and image
     sleep(1)

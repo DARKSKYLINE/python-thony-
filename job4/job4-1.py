@@ -7,4 +7,4 @@ while True:
     temp = sensor.temperature() 
     hum = sensor.humidity()
     print("Temperature: {0}°C Humidity: {1}% ".format(temp, hum))
-    sleep(2)
+    sleep(1)
